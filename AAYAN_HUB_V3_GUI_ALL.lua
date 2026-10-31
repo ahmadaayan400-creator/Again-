@@ -19,7 +19,7 @@ local PlayerGui = player:WaitForChild("PlayerGui")
 -- SETTINGS YOU MAY WANT TO CHANGE
 --==================================================
 
-local SONG_ID = 86804131922977
+local SONG_ID = 136757074728111
 -- Gap between every element. Roblox offsets are whole pixels,
 -- so the requested 0.9 gap is rounded to 1 pixel.
 local GAP = 1
@@ -2405,6 +2405,10 @@ btn("BEST ANTI BANG 👺",P8,function()
 loadstring(game:HttpGet("https://pastebin.com/raw/mZGPu2F4"))()end)
 
 
+btn("AAYAN ANTI BANG 😈",P8,function()
+	
+loadstring(game:HttpGet("https://pastebin.com/raw/XFi5TrS9"))()end)
+
 btn("👑 ANTI-VOID", P8, function(self)
 	Config.AntiVoid = not Config.AntiVoid
 	self.Text = "👑 ANTI-VOID: " .. (Config.AntiVoid and "ON" or "OFF")
@@ -2972,7 +2976,7 @@ InfoTitle.Position = UDim2.new(0,5,0,5)
 
 -- SUBTITLE
 local InfoSub = AddInfoText(
-	"💜 YOUR HUB • ALWAYS EVOLVING 💜 ",
+	"💜 YOUR HUB • ALWAYS EVOLVING 💜",
 	Purple,
 	26,
 	true
@@ -2990,14 +2994,28 @@ NoteTitle.Position = UDim2.new(0,5,0,72)
 
 -- NOTE MESSAGE
 local NoteMessage = AddInfoText(
-	"So, this is my hub, and I'll keep updating it with new features! 🚀 If you face any bugs or problems, please let me know so I can fix them and make the hub even better luv u all ALPHA EMPIRE ⛩️ members 🫠 and all Thanks for supporting AAYAN V3! 👽💜                                                       AND THANKS TO MAXU (AE_MAX AGAR TU NA HOTA TO AJJ MAI YAHAN NHI HOTA BHAI THANK YOU 💗 FOR SUPPORTING ME IN EVERY SITUATION 🎀🤧",
-	White,
-	100,
-	false
+    "So, this is my hub, and I'll keep updating it with new features! 🚀 If you face any bugs or problems, please let me know so I can fix them and make the hub even better luv u all ALPHA EMPIRE ⛩️ members 🫠 and all Thanks for supporting AAYAN V3! 👽💜",
+    White,
+    100,
+    false
 )
 NoteMessage.Position = UDim2.new(0,5,0,103)
 NoteMessage.TextSize = 14
 NoteMessage.TextYAlignment = Enum.TextYAlignment.Top
+
+local ThanksMessage = AddInfoText(
+    "AND THANKS TO MAXU (AE_MAX( AGAR TU NA HOTA TO AJJ MAI YAHAN NHI HOTA BHAI THANK YOU 💗 FOR SUPPORTING ME IN EVERY SITUATION 🎀🤧",
+    Color3.fromRGB(180,100,255),
+    100,
+    false
+)
+ThanksMessage.Position = UDim2.new(0,5,0,190)
+ThanksMessage.TextSize = 14
+ThanksMessage.TextYAlignment = Enum.TextYAlignment.Top
+
+
+
+
 
 btn("AAYAN ADMIN 🔲", P3, function()
 		
@@ -3014,9 +3032,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadaayan400-creator
 btn("3F STALKER 🌱", P3, function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Universal-Script-3Fs-236312"))() end)
 
 
-btn("TROLL ADMIN 🔲", P3, function()
+btn("UTILITY ☠️", P3, function()
 		
-loadstring(game:HttpGet("https://pastebin.com/raw/ZnAdZPW1"))() end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadaayan400-creator/AAYAN-utility-/refs/heads/main/AAYAN_V1_UTILITY.lua"))() end)
 
 btn("INFINITE YEILD 🔲", P3, function() 
 
