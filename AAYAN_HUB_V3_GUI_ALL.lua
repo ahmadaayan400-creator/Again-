@@ -3052,7 +3052,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Veaquach/kruel/refs/h
 btn("EXECUTOR 😾", P13, function() 
 		
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadaayan400-creator/Zz-EXECUTOR-/refs/heads/main/executor.lua"))() end)
-
+btn("AAYAN EMOTE (BEST) ", P13, function() 
+		
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadaayan400-creator/AAYAN-EMOTE-/refs/heads/main/AAYAN_EMOTE.lua"))() end)
 
 
 btn("SPECIAL MODES 😋 ", P13, function() 
